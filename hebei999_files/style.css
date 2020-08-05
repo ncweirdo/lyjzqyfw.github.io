@@ -1,0 +1,49 @@
+/*
+* @Author: xubo
+* @Date:   2019/9/17 17:12
+* @Last Modified by: xubo
+*/
+.casebox{width:100%;margin-top: 40px;text-align:center;display:flex;justify-content:space-between;transition: all 0.2s ease;}
+.ListClass{width:213px;position:relative;margin-right:30px;margin-top: -80px;}
+.ListClass .titbox{width:213px;height:81px;line-height:81px;background:#cfa75b;text-align:center;}
+.ListClass .titbox .maintit{font-size:25px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#fff;font-weight: bold;}
+.ListClass .clsbox{background:#f6f6f6;border:1px solid #e6e6e6;border-bottom: 0;}
+.infobox .mobileicon{margin: 0 auto;}
+.ListClass .cls{width:213px;display:block;height:auto;overflow:hidden;line-height:52px;font-size:16px;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.ListClass .cls a{font-size: 16px;color: #1a1a1a;display: block;text-align: left;padding-left: 30px;}
+.ListClass .hide{display:none;}
+.ListClass .cls .show{display:block;}
+.ListClass .cls:hover>.fircls{color: #fff;background-color: #cfa75b;animation: all .5s linear;}
+.ListClass .cls:hover>.sec{background-color: #f6f6f6;animation: all .5s linear;}
+.ListClass .cls:hover>.hide{display:block;animation: display .5s linear;}
+.ListClass .sec{width:auto;display:block;height:auto;overflow:hidden;line-height:52px;text-align:left;color:#000;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-left:20px;}
+.ListClass .sec a{font-size: 14px;color: #4c4c4c;}
+.ListClass .ths{width:auto;display:none;height:auto;overflow:hidden;line-height:52px;font-size:16px;text-align:left;color:#000;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-left:20px;}
+.ListClass .info{width:100%;background:#fff;}
+.ListClass .info .infobox{height:auto;background:#fff;border:1px solid #e6e6e6;padding:10px;}
+.ListClass .info .infobox p{font-size:16px;text-align:left;color:#000;line-height:32px;}
+.ListClass .info .infobox p.centertit{text-align:left;margin-top: 20px;}
+.ListClass .info .infobox p.call{font-size:22px;text-align:left;color:#cfa75b;}
+.casepro{text-align:center;font-size:0;width:100%;height:auto;overflow:hidden;}
+.casepro .titbox{width:100%;height:40px;line-height:40px;border-bottom:1px solid #ddd;}
+.casepro .titbox .tit{font-size:20px;float:left;line-height:35px;margin-bottom:10px;color: #101010;}
+.casepro .titbox .seat{font-size:12px;float:right;color: #101010;}
+.casepro .titbox .seat .sednav{color: #101010;}
+.casepro .probox{width:100%;margin:0 auto;padding:10px 10px;text-align:left;overflow:hidden;}
+.casepro .probox .tit{font-size:30px;line-height:50px;}
+.casepro .probox .time{font-size:16px;margin-bottom:20px;}
+.casepro .probox a.ifp{display:inline-block;vertical-align:middle;margin: 25px 10px 0 10px;}
+.casepro .probox a.ifp img{width:224px;height:168px;box-sizing:content-box;-webkit-box-sizing:content-box;}
+.casepro .probox a.ifp p{width:100%;margin-top: 14px;color:#101010;text-align:center;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.casepro .probox .prev{font-size:18px;text-align:left;display:block;}
+.casepro .probox .next{font-size:18px;text-align:left;display:block;}
+.casepro .probox .back{width:195px;height:45px;line-height:45px;border-radius:12px;text-align:center;margin:0 auto;font-size:21px;color:#000;border:1px solid #000;margin-top:30px;display:block;}
+.casepro.noclass .probox a.ifp img{width:290px;height:218px;}
+
+.casepro .probox .detail-tit{font-size: 20px;color: #1a1a1a;text-align: center;margin-top: 28px;}
+.casepro .probox .detail-time{font-size: 14px;color: #717171;text-align: center;margin-top: 15px;}
+.casepro .probox .detail-img{width: 80%;margin: 0 auto;margin-top: 22px;}
+.casepro .probox .detail-text{font-size: 14px;color: #4c4c4c;text-align: left;margin-bottom: 38px;margin-top: 34px;line-height: 25px;border-bottom: 1px dashed #ccc;padding-bottom: 27px;}
+.prev-item,.next-item{font-size: 12px; color: #1a1a1a;text-align: left;line-height: 20px;display: block;}
+.next-item{margin-top:5px;}
+.backlist{display: block;width: 136px;height: 36px;line-height: 36px;text-align: center;font-size: 14px;color: #fff;background-color: #cfa75b;margin: 0 auto;margin-top: 46px;margin-bottom: 50px;}
